@@ -16,7 +16,13 @@ export const Nav = () => {
             <Link href="/contact">Contact</Link>
           </li>
           <li>
-            <Link href="/blog">Blog</Link>
+            <Link href="/blog">Blog (server Site Data Rander)</Link>
+          </li>
+          <li>
+            <Link href="/person">User (server Site Data Rander)</Link>
+          </li>
+          <li>
+            <Link href="/student">Student (Client Site Data Rander)</Link>
           </li>
         </ul>
       </nav>
