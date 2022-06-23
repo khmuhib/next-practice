@@ -1,9 +1,12 @@
 import React from "react";
+import {Nav} from "../components/Nav";
+import contactStyles from '../styles/Contact.module.css'
 
 export default function contact() {
   return (
     <div>
-      <h1>Contact</h1>
+      <Nav></Nav>
+      <h1 className={contactStyles.ppp}>Contact</h1>
     </div>
   );
 }
