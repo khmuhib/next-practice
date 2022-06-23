@@ -24,6 +24,9 @@ export const Nav = () => {
           <li>
             <Link href="/student">Student (Client Site Data Rander)</Link>
           </li>
+          <li>
+            <Link href="/mydata">My Data (Internal File Data Load)</Link>
+          </li>
         </ul>
       </nav>
     </div>
