@@ -1,20 +1,24 @@
 import {Nav} from "../../components/Nav";
 import {useEffect, useState} from "react";
+import {useRouter} from "next/router";
 
 function SingleUser() {
     const [user, setUser] = useState(null)
+    const {id} = useRouter().query
 
     useEffect(()=>{
-        fetch("https://jsonplaceholder.typicode.com/users/1")
+        fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         .then((res)=>res.json())
         .then((data)=> setUser(data));
-    }, [user])
+    }, [id])
 
     return (
         <div>
             <Nav></Nav>
             <h2>Single User</h2>
-            <p>User Name: <b>{user?.name}</b></p>
+            <p>User id: <b>{user?.id}</b></p>
+            <p>Name: <b>{user?.name}</b></p>
+            <p>User Name: <b>{user?.username}</b></p>
         </div>
     );
 }
