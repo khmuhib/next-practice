@@ -1,6 +1,5 @@
-import {users} from '../../../usersData'
+import { users } from "../../../usersData";
 
 export default function handler(req, res) {
-    res.status(200).json({ users })
-  }
-  
+  res.status(200).json(users);
+}

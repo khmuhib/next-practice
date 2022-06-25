@@ -15,8 +15,8 @@ export default function Home() {
     </Head>
     <div style={{textAlign: "center"}}>
       <h1 className="aaa">This is Index</h1>
-      <Image src='/pic.jpg' height="100" width="100"></Image>
-      <Image src='https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=600' height="100" width="100" alt="image"></Image>
+      <Image src='/pic.jpg' height="100" width="100" alt="img"></Image>
+      {/* <Image src='https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=600' height="100" width="100" alt="image"></Image> */}
 
     </div>
 
