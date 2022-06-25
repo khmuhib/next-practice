@@ -27,6 +27,9 @@ export const Nav = () => {
           <li>
             <Link href="/users">My Data (Internal File Data Load)</Link>
           </li>
+          <li>
+            <Link href="/test">My Own API</Link>
+          </li>
         </ul>
       </nav>
     </div>
